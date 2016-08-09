@@ -1,0 +1,52 @@
+.publish-wrap ul{
+    width: 100%;
+}
+.list-wrap{
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+    width: 50%;
+    float: left;
+    border-bottom: 0.1rem solid #e2e2e2;
+    border-right: 0.1rem solid #e2e2e2;
+    margin-right: -0.1rem;
+    min-height: 10.4rem;
+}
+.publish-person,.publish-time-wrap{
+    margin-left: 7%;
+}
+.publish-wrap a img{
+    display: block;
+    margin: 0 auto;
+    max-width: 6rem;
+    max-height: 4rem;
+    border-radius: 16%;
+}
+.list-title{
+    color: #000000;
+    font-size: 0.8rem;
+    min-height: 2rem;
+    max-width: 9.6rem;
+}
+.list-issue{
+    font-size: 0.6rem;
+    color: #999;
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+.list-name,.list-num{
+    font-size: 0.6rem;
+    color: #ff0000;
+}
+.publish-time-wrap{
+    padding-top: 0.4rem;
+    color: #ff0000;
+}
+.publish-time{
+    min-width: 1rem;
+    min-height: 1rem;
+    text-align: center;
+    color: #ff0000;
+    display: inline-block;
+    border: 0.08rem solid #ff0000;
+}

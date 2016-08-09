@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/shopping-cart.css" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="product-info">
+        <div class="product-item">
+            <div class="header">
+                <div class="cover"><img src="media/share2.png" alt=""></div>
+                <div class="info">
+                    <h2>英雄联盟LOL:89元皮肤</h2>
+                    <p class="price"><span class="highlight">¥ 1.00</span> <em class="total-num">x5</em></p>
+                </div>
+            </div>
+            <div class="footer">
+                <span class="number" id="number" data-max="100" data-level="10" data-price="1">
+                    <a href="" class="btn-minus">-</a>
+                    <span class="current-num">5</span>
+                    <a href="" class="btn-plus">+</a>
+                </span>
+                <a href="" class="btn-get-all">包尾</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-menu">
+        <div class="menu-inner clear-fix">
+            <span class="total">合计: <em class="highlight total-price">¥ 5.00</em></span>
+            <a href="" class="btn-pay">支付</a>
+        </div>
+    </div>
+</div>
+<script src="lib/zepto/zepto.min.js"></script>
+<script src="js/shopping-cart.js"></script>
+</body>
+</html>

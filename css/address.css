@@ -1,0 +1,65 @@
+.address{
+    background-color: #f6f6f6;
+}
+.address-content{
+    clear: both;
+    background-color: #ffffff;
+    padding-bottom: 1.2rem;
+    min-height: 4rem;
+    margin-bottom: 0.4rem;
+    border-bottom: 0.08rem solid #cccccc;
+}
+.address-name{
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.address-num{
+    float: right;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-right: 0.8rem;
+}
+p{
+    min-height: 2rem;
+    padding-left:1rem;
+    margin-top: -0.4rem;
+    line-height: 2rem;
+    font-size: 0.6rem;
+}
+.address-content button{
+    width: 3rem;
+    height: 1.2rem;
+    border-radius: 12%;
+    float: right;
+    font-size: 0.6rem;
+    background-color: #ffffff;
+    margin-right: 1rem;
+    border: 0.08rem solid #cccccc;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    border-top: 0.05rem solid #ddd;
+    height: 2.8rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background-color: #ff0000;
+}
+.add-address{
+    line-height: 2.8rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}

@@ -1,0 +1,135 @@
+.wrap{
+    width: 100%;
+}
+/********轮播开始********/
+.carousel{
+    height: 7.5rem;
+}
+/********轮播结束********/
+
+/********导航开始********/
+.nav {
+    font-size: 0.65rem;
+    white-space: nowrap;
+    padding: 0.8rem;
+    list-style-type: none;
+    text-align: left;
+    text-shadow: none;
+    background-color: #fff;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav ul li{
+    flex: 1;
+    text-align: center;
+}
+.nav img{
+    margin: 0 auto;
+    display: block;
+    max-width: 1.6rem;
+    max-height: 1.6rem;
+}
+/********导航结束********/
+
+/********公告开始********/
+.small-publish{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6rem;
+    border-top: 1px solid #ddd;
+    padding: 0.5rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.small-publish img{
+    flex: 1;
+    max-width: 0.9rem;
+    max-height: 0.9rem;
+}
+.small-publish p{
+    align-content: right;
+    flex: 1;
+}
+.small-publish .gray{
+    color: #999999;
+}
+/********公告结束********/
+
+/********切换开始********/
+.index-container-list{
+    display: flex;
+    flex-direction: row;
+}
+.index-container-list li{
+    margin-top: 0.1rem;
+    flex: 1;
+    text-align: center;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    background-color: #fff;
+    border-bottom: 0.1rem solid #ddd;
+}
+.index-container-list .selected{
+    color: #e03131;
+    border-bottom: 0.1rem solid #ddd;
+}
+.index-content-goods{
+    display: flex;
+    flex-direction: row;
+}
+.index-content-goods li{
+    flex: 1;
+    min-height: 14rem;
+    background-color: #fff;
+    border-right: 0.08rem solid #ddd;
+    border-bottom: 0.1rem solid #ddd;
+}
+.index-content-goods li img{
+    display: block;
+    margin: 1.8rem auto;
+    max-width: 6rem;
+    min-width: 4rem;
+    min-height: 4rem;
+    max-height: 6rem;
+    border-radius: 6%;
+}
+.index-content-goods li p{
+    font-size: 0.65rem;
+    min-height: 3.4rem;
+    padding: 0.4rem;
+}
+.progress-title{
+    font-size: 0.65rem;
+    padding: 0 0.5rem;
+}
+.progress-style{
+    margin-left: 0.5rem;
+    width: 2.8rem;
+    height: 0.2rem;
+    border-radius: 20%;
+    background-color: #b9b9b9;
+}
+.progress-style span{
+    display: block;
+    width: 1.8rem;
+    height: 0.2rem;
+    border-radius: 20%;
+    background-color: #e03131;
+}
+.red-i,.buy-button{
+    color: #e03131;
+}
+.buy-button{
+    border: 0.08rem solid #e03131;
+    text-align: center;
+    margin-right: 0.5rem;
+    border-radius: 12%;
+    float: right;
+    font-size: 0.6rem;
+    margin-top: -1rem;
+}
+/********切换结束********/

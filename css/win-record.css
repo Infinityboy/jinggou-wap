@@ -1,0 +1,63 @@
+body{
+    background-color: #ffffff;
+}
+.win-record-container{
+    margin: 0.2rem 0 0 0.6rem;
+    margin-bottom: 0.4rem;
+}
+.w-r-img{
+    margin: auto 0;
+    flex: 5;
+    max-width: 6rem;
+    max-height: 4rem;
+    border-radius: 20%;
+}
+.w-record-num{
+    display: flex;
+    flex-direction: row;
+}
+.w-r-content{
+    margin: 0 1rem;
+    flex: 9;
+}
+.w-r-issue,.w-r-num{
+    color: #b2b2b2;
+    font-size: 0.6rem;
+}
+.w-r-title{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+}
+.w-r-arrow{
+    flex: 1;
+    max-width: 0.9rem;
+    max-height: 2rem;
+    margin-top: 1rem;
+    background: url('../images/icon/personal-arrow.png') no-repeat;
+    background-size: 1.5rem;
+}
+em{
+    font-weight: bold;
+    color: #ff0000;
+}
+.w-r-status{
+    margin-right:0.6rem ;
+    border-top: 0.08rem dotted #dddddd;
+    font-size: 0.8rem;
+    color: #b2b2b2;
+}
+.w-r-button{
+    color: #ff0000;
+    width: 3.4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border: 0.08rem solid #ff0000;
+    background-color: #ffffff;
+    border-radius: 12%;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    margin-top: -1rem;
+    margin-right: 0.6rem;
+}

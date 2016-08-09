@@ -1,0 +1,108 @@
+/**
+ * Desc: 购物车css
+ * User: liangqi
+ * Date: 16/6/15
+ * Time: 下午12:40
+ */
+.product-item {
+    background: #fff;
+}
+
+.product-item .header {
+    width: 100%;
+    display: table;
+    padding: .8rem;
+}
+
+.product-item .cover {
+    width: 6rem;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-item .cover img {
+    width: 4rem;
+    border-radius: 5px;
+}
+
+.product-item .info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-item .footer {
+    border-top: 1px solid #ddd;
+    padding: .8rem;
+    text-align: right;
+}
+
+.product-item .btn-get-all {
+    background: #df2f2f;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0 .8rem;
+}
+
+.product-item .number {
+    margin-right: .8rem;
+    display: inline-block;
+}
+
+.product-item .number > * {
+    background: #eee;
+    border-radius: 3px;
+    display: inline-block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.product-item .number > a {
+    width: 1.2rem;
+    vertical-align: middle;
+}
+
+.product-item .number > a.disabled {
+    background: #f0f0f0;
+    color: #ccc;
+}
+
+.product-item .number > span {
+    width: 5rem;
+    font-size: .9rem;
+}
+
+/**
+ 底部悬浮菜单
+ -------------*/
+.bottom-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+}
+
+.bottom-menu div.menu-inner {
+    height: 2.8rem;
+    line-height: 2.8rem;
+}
+
+.bottom-menu .total {
+    margin-left: .8rem;
+}
+
+.bottom-menu .btn-pay {
+    background: #df2f2f;
+    color: #fff;
+    padding: 0 1rem;
+    float: right;
+    font-size: 1.2rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+}

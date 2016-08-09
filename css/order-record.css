@@ -1,0 +1,101 @@
+/**
+ * Desc: 商品购买记录
+ * User: liangqi
+ * Date: 16/6/15
+ * Time: 上午11:48
+ */
+body {
+    background: #eee;
+}
+
+.wrapper {
+    position: relative;
+}
+
+nav {
+    text-align: center;
+    background: #fff;
+    margin-bottom: .8rem;
+}
+
+nav a {
+    display: inline-block;
+    color: #5c5c5c;
+    padding: 3px .5rem;
+    vertical-align: middle;
+}
+
+nav a.hover {
+    font-size: 1.1rem;
+    color: #df2f2f;
+}
+
+.order-list-item {
+    background: #fff;
+    margin-bottom: .8rem;
+}
+
+.order-list-item {
+
+}
+
+.order-list-item .header {
+    display: table;
+    width: 100%;
+    padding: .8rem 0;
+}
+
+.order-list-item .footer {
+    border-top: 1px solid #ddd;
+}
+
+.order-list-item .cover {
+    display: table-cell;
+    vertical-align: middle;
+    width: 7.6rem;
+    text-align: center;
+}
+
+.order-list-item .cover img {
+    max-width: 6rem;
+    border-radius: 5px;
+}
+
+.order-list-item .info {
+    display: table-cell;
+}
+
+.order-list-item .info h2 {
+    font-size: 1.1rem;
+    margin-bottom: .3rem;
+}
+
+.order-list-item .meta p {
+    font-size: .8rem;
+    color: #999;
+    line-height: 1rem;
+}
+
+.order-list-item .footer {
+    padding: 0 .8rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.order-list-item .footer .status {
+    font-size: .8rem;
+    color: #999;
+}
+
+.order-list-item .btn-again {
+    float: right;
+    color: #df2f2f;
+    display: inline-block;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 3px;
+    border: 1px solid #df2f2f;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: .5rem;
+}

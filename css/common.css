@@ -1,0 +1,107 @@
+html {
+    -overflow-y: scroll;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    color: #666;
+    background: #f7f7f7;
+    font-size: 14px;
+    line-height: 1.666
+}
+
+img {
+    max-width: 100%;
+}
+
+header, footer, section, aside, article, nav, figure, figcaption, body, h1, h2, h3, h4, h5, h6, ul, ol, li, form, p, dl, dt, dd, blockquote, legend, table, th, td, fieldset, menu, pre {
+    margin: 0;
+    padding: 0
+}
+
+table, th, td, img, fieldset {
+    border: 0
+}
+
+time, mark, output, meter, address, cite, em, code, var, dfn, ins, i, th, caption {
+    font-style: normal;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+q:before, q:after {
+    content: ""
+}
+
+ul, ol {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th, caption {
+    text-align: left
+}
+
+header, footer, section, aside, article, nav, figure, figcaption {
+    display: block
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /**去除a链接蓝框***/
+    color: #0079fe;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.highlight {
+    color: #df2f2f;
+}
+
+.clear-fix:after {
+    content: 'A';
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    clear: both;
+}
+
+/**
+ bootstrap 重置样式
+ ----------------*/
+.carousel-indicators li {
+    background-color: #eee;
+}
+
+.carousel-indicators .active {
+    background-color: #e03030;
+}
+
+.mt0 {
+    margin-top: 0 !important;
+}
+
+/**
+ loading
+ ---------------*/
+.loading {
+    text-align: center;
+    padding: 0 0 .8rem;
+}

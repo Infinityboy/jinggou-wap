@@ -1,0 +1,180 @@
+body{
+    background-color: #ffffff;
+}
+/*********单条记录开始***********/
+.win-record-container{
+    padding: 0 0.6rem;
+    background-color: #ffffff;
+    margin-bottom: 0.4rem;
+}
+.w-r-img{
+    margin: auto 0;
+    flex: 5;
+    max-width: 6rem;
+    max-height: 4rem;
+    border-radius: 20%;
+}
+.w-record-num{
+    display: flex;
+    flex-direction: row;
+}
+.w-r-content{
+    margin: 0 1rem;
+    flex: 9;
+}
+.w-r-issue,.w-r-num{
+    color: #b2b2b2;
+    font-size: 0.6rem;
+}
+.w-r-title{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+}
+.w-r-arrow{
+    flex: 1;
+    max-width: 0.9rem;
+    max-height: 2rem;
+    margin-top: 1rem;
+    background: url('../images/icon/personal-arrow.png') no-repeat;
+    background-size: 1.5rem;
+}
+em{
+    font-weight: bold;
+    color: #ff0000;
+}
+.w-r-status{
+    margin-right:0.6rem ;
+    border-top: 0.08rem dotted #dddddd;
+    font-size: 0.8rem;
+    color: #b2b2b2;
+}
+.w-r-button{
+    color: #ff0000;
+    width: 4rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border: 0.08rem solid #ff0000;
+    background-color: #ffffff;
+    border-radius: 12%;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    margin-top: -1rem;
+    margin-right: 0.6rem;
+}
+.w-r-l-wrap{
+    padding: 0 0.6rem ;
+}
+/*********单条记录结束***********/
+
+/*********个人单条详情开始***********/
+.red-title{
+    height: 2rem;
+    background-color: #e03131;
+    color: #ffffff;
+}
+.red-title p{
+    font-size: 0.8rem;
+    color: #ffffff;
+    line-height: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.red-title p span{
+    flex: 1;
+}
+.detail-count{
+    margin: auto 0.4rem;
+    height: 1rem;
+    line-height: 1rem;
+    border: 0.08rem solid #ffffff;
+}
+.box{
+    display: -webkit-box ;
+    display: -webkit-flex ;
+    background: #f6eaea;
+}
+.w-r-l-head{
+    -webkit-flex: 1;
+    margin-top: 1.5rem;
+    margin-left: 0.4rem;
+    float: left;
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+    border: 0.2rem solid red;
+    background: url('../media/bac.png') 0 0 no-repeat;
+    background-size: 3.6rem;
+}
+.w-r-l-content{
+    -webkit-flex: 3;
+    height: 7rem;
+    background: #f6eaea;
+    padding-top: 1rem;
+    padding-left: 5%;
+}
+.box .w-r-l-content li{
+    color: #999999;
+    height: 1.2rem;
+}
+.red-i{
+    color: #e03131;
+}
+.records-progress{
+    min-height: 6.4rem;
+    padding: 0 0.6rem;
+
+}
+.records-progress p{
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: row;
+}
+.records-progress p span{
+    flex: 1;
+    text-align: center;
+    color: #ff0000;
+}
+.r-g-style{
+    height: 0.1rem;
+    background-color: #cccccc;
+}
+.r-g-s-red{
+    height: 0.1rem;
+    background-color: #ff0000;
+}
+.r-p-input{
+    display: inline-block;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    color: #333333;
+    font-weight: bold;
+}
+input{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: none;
+    outline:none;
+    resize:none;
+}
+.records-progress .qq{
+    padding-top: 0.5rem;
+    color: #aeaeae;
+    font-size: 0.8rem;
+}
+.w-r-submit{
+    color: #ff0000;
+    width: 4rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border: 0.08rem solid #ff0000;
+    background-color: #ffffff;
+    border-radius: 12%;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    margin-top: -1rem;
+    margin-right: 0.6rem;
+}
+/*********个人单条详情结束***********/
